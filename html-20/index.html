@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html-logo.svg">
+    <title>HTML lesson 20</title>
+    <style>
+        header {
+            background: #db9419;
+            height: 60px;
+        }
+    </style>
+    <style>
+        footer {
+            background: #663399;
+            height: 300px;
+            color: #e9dcdc;
+        }
+    </style>
+
+    <style>
+        blockquote {
+            background: #e1c88b;
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <header>
+        <a href="#section-1">Первая секция</a>
+        <a href="#section-2">Вторая секция</a>
+    </header>
+    <main>
+        <h1>
+            Заголовок
+        </h1>
+
+        <h2>
+            <section id="section-1">Та самая первая секция</section>
+        </h2>
+
+        <link rel="stylesheet"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABPlBMVEX///8AAADGxcpG+P9XpP+niWasq7EA19+R3FqAZ0kkiP/My9DJyM0wMDC265JoZ2pI/f+JiJAvqK0ztrtiUTx6ZEuuj2oUEAxB5+4AydCcm59erCRTnfRLS01aWlympamUeVpxW0E/NCcxJxwXFxgAP0FJidUectUsjP8hISOOjZZMcy8pkpZ4doAUSUsf4Oiu6IZ7en3/MFFfe006OjtIhBzo6Oh/ykhzcXoAnqNZqf98vE0xWhO5uL1LPSuKioolRm0bM09sbGw3aKGKs29NYz4NGCW+JDynHzVPlecdN1UWKUAKJ0o/YCcnio3e3t5EREUeGRJEgMgvWYsHDRUJISI/DBR2FiYtCA7QJ0I8cK4MFiIxXI9VmyByrUdvsT8iPQ0/UTIpSxA3ZRUML1czTiAnOxhWeD8aXWAGdnrySrjLAAAKG0lEQVR4nO2da0PbNhSGmwQSujglUFYokAS2rFtYty4szVp3LiRsXQsbY7B1a7v7ff//D4zgI1myZFsXX+RU7ydy8EWPpSO9Uhz72jUrKysrK6vUNe51K8Wp2xtnDXhQIJ6vg0z5xq2i+S41yrAax/2i6a7Uzw7RhBqcqZUV4GbRZFibGREWzUUoG0APjv7N9cWctXMdtLYOZahmQjgEwMVbeRMuXscCxGEmhB3/4Lv5AxKEa34hulkS7uQPSBDu+oXoWEJLKER4Kz/tFEK489Z6fnp7N3/CHcWxWlW7eRPeWsuZ8HHuhG/lTPi2JbSErzehNx21LlXhEZ5vZ6P33kB6l0dYmRVoNPVS4QvPe2nCO+5CFnIx4Xt8QiT9danxKNxcQoSyRXfFLokoofa61HjAJIQGoeveOT8/vyMCKUxYGeghMjWoQehuX3x7tc+3F9uJjOKElZEOIG/tSZnwiDjIUYqEWutSnMMpEx5SRzlMkVBjXQqtPX13c2Njo/ahDqF7ESrVRXxDTSB85/alHn4Hx1IfNKYAWGvXarW2DqH7krnwL2MRkwjvNRqNew1AnCoTQj9zcwaoR7j9hCF8olWHM8LGvYf+J/W+BmzMRk2XMKjC598/F6pEIcLGbf+T+ip/eoSom/lif3//C/j7cJ4IFwDq6f5MT+HTPBLu+4JPcTtYQlMJX1wBvphDQnfib/38ihB608k85aH7I1TbD09fPP0B/j6aJ8KFZxVWz+J2KB0hY0uTjGlZCF08pWds25Pt8CalJDw6PgZv5obb6TOIvzw+5k0WS0I4mW1xiBDJWjxBgFd2blJWwhN/EzTZdY9eoRaKaw386kk5CSeowjDiwvnF4eHhj+cLKPPwvJ9BLAMhBiRmEa4v9IlY2Ag31BIQnlQIcSdKLrVyE6pF8wkpQP7CE700FUI0nnBSCYmpRfcwvAnVUE0nZAAZRBaQRjScMGiiP93nIxKAPz/CfxIN1WxCAnBri0AkNiEAl5Z4iEYTTkhACpEzTFwCkoiTMhCGADmIYUAeosGEQRP9ZWuLi0gAfra0FEY8MZ0wqMFHS59wEGnAGx+xiBOzCY8JwCUuIgV4IxLRVMKgiT66KjYH8RX+awbIRTwxlzAMyEWkASMQk+5UKIiQbqIJiAgwoqEaSTjhAEYiBoB8RBMJ2SYag0gCchG/NI+QX4MU4q94k99u3BBFNIaQl4MhxN+JOvxcGNEUwugaxIgkoASiIYRROUgg0oDiiGYQxtfgFWIYUBjRCMK4HAR9hTf5QwbxTxMIXYEaJADvE4OGUC0WTygLuCWLWDihVBO9Hxr6RRpq0YTBVEEYUBLxVcGEMoA/cwycAKIhhCKAXI8qilg0oRigDmLBhKKAcoifmEP41/sR+gtv8jcKfQr642/8v98+pvUPu3vRhHnIElpCS8gQLr6ZM+Fa7oQ5/0wWfiSbJ+HirZ03c9Ma+il3roQ5iv09/rwRss9UsIRahLk/f2eR8/SWbAj/hV6t0OfTwDD8byaEd6Hj3s3xkR++AsLHUIbTTAgbcPTKN2s56zESekxU5WYjA0KciAYI0jB1wkb0KXMWVGHahEEmFi3IwvQJa+3T4qgI/YcA0yestVeL48JaxYAZENbaG0VX4+lGO1PCS8b27dXidLvdrtUyJpwxFqhZATInLFyW0BJawuJlCS2hJSxeltASpksoaDVLTCgwXyg5YSVZltASWkJLaAkTdHo3SaclJ5z/ET8LWUJL+FoS6i5UpyxMeC8twtWbZmn1IdLdlAiNlyV8jQnHRZdcWKqPZfeSD22IVB93PS264MJSfdw1pGF32TR1seCtIoqJ+DVcIK9pmrw6Enrw/9dKhLD3qFk1TpiwDu1M7eUB8N7fqdGEy5BJSoTQADadonlYBc10BUqpAliFfQ0EJAjrUEqV13bC25vPcCN1KGkG9fYPmqkHbzdQeaMOvGFmiAid3iYpLyZYTw7W/YJ7ycEeL7iHEWHQHsgDIstWR9ewSbtU/8TNDhX0c7a5TAUP/OCQCvoXzqFf873sB+l3v3T8YI8KDpjxQt64gWXr47bfpN+q45M36RetZ0HY9YN1KtgKEhHepC1v3KbkSY0jHAV9DRrUpAlbZPFMJoTjShs3bNkMJawyiShr3JBlC0ZDPqFAT7MSQ7hCBeN6mhChEyQilEvWuLGWrTntEup4UG4y2PU7WOeACm7ygn7FOpu8YI8KwrXwOmRw2qyHE1HWuFGVAoiUnJigk2awyQ/qGjewbOtVYxUQ9uCXNHLGjbFs5knTuIFlO3CSz1SQiK7mgV9YqfGCsWwGip3oyxg3tMpGNVLNuUE1OSh10IAQlVbGuIFl65KETr1Hihv0ooNVLzmI5ha8YJUJMuOFjHHrc9JQeW6RzohPzy1aTZIQDt0XB8SWjWykZrm2JjVeQFTcuCHLVjWaUGfFjbvKZjKhrHEbg0noOWYTBs10z4+ui44Xjr99n0pD9blFOqsYsYQ96BodQcID8tAB4XKH0BkQTs/IIMwthlQQzS2oIJpbUMEhzC2o4BQIyWDHvxbMDErUuKHNQ6bUrLkFTQjGTfCFpGWwbL6YRBQ0btDi+wbPK0DE0jd0jnUhQp5lM1QBIfR4YsYNKnzP+EbKMW5CE31k2YouvYjUjBuMRq0SVKGicUMtugRpyPmqtJMMyLdspopZcRMwbmDZ1r3kwxsgdsUt2bjxLZuxCprpmahxgw2HpSOEYfwsMQ3TsGyOquRPJb/iBpZtoMPnqUuakTBuAzHjloJloyfFcupKn03auMGZ1C2bsxxZfBEtS56YWPoWM27cVTYp6d6yKXtmWeMG6TpQbqShJQh5Sd+ChQk9SMR44wZjhbpla+relCp9asa4xY8XqhcyINS9N7wlSxg0U7SsFQeI7mVT5bsUHGEgL8Vzy93jBt1RR70nRWm4J6iVD7BU2w9j3IYxhLDKpm7ZUBq29lYEFRC2tBMRTh6z4qZv2VAadhUI0T3b6omYbNygIbdU+YLRcCgKSBAiq6A+IiYbN23LhtNQGJBAfKCfiInGra94Ciz0jcVIuJFyEnFZ8gKzxi3yZlP2XjZZOdBVdSTq8AESSsSR7OnFf5yAVtnUG2k6vyOSvsLCxk17lU3blEL51BMxYcVN9QRY2qbUl/QlFr3HTf/nB02dyW8g6b5c1Ljpr7KFvudVlbylYowbf8WtpXr8QCjTtTSQn34zxo17jxsaK3RW2Ryv29dVV2GwEhsvoKfXWWWrhr/1VpLCWVnjxrvHrURfjLJijBtvBgX9YBm+GGXFGDfezUMd/TQsTIQ13YwmhDoM32NSDgWED6IJkS+vlhERA/YG0XmI15A2iy6uvFBf2lvB61kcwmv49RhzIP7NtOlMDMxQxPQpDctlhqIm+eN5aafRtyuMR8l7l0CjuG+fDpL3N14J9yqMe+nMYotSt6f6rBorKysrq9dZ/wPU3tzncxlNuAAAAABJRU5ErkJggg==">
+
+        <p>
+            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. То ipsum инициал знаках
+            однажды семантика злых гор, безопасную переулка последний рекламных всемогущая семь переписывается сих
+            журчит рукописи страну своих безорфографичный решила маленький домах наш своего реторический имени свое!
+            Коварных, обеспечивает осталось вдали единственное бросил рыбного, от всех строчка путь маленький, рыбными
+            образ инициал подпоясал которой вопроса дорогу продолжил о. Раз, страну предупреждал вскоре бросил грустный
+            заголовок за запятых образ ее послушавшись пояс, жаренные журчит взобравшись родного мир путь имени злых
+            осталось своего языкового которое. Деревни ее выйти вопроса свою до семь пор взгляд точках буквоград там,
+            возвращайся наш страна обеспечивает пояс родного большой это продолжил первую от всех lorem. Страна первую
+            снова заглавных мир предупредила, речью подзаголовок использовало путь над океана диких ручеек большой
+            напоивший, лучше от всех сих журчит домах букв, толку коварный жаренные своего обеспечивает. Взгляд диких
+            раз дороге, страна агентство меня инициал текста пустился. Коварный текстов все приставка на берегу. Сбить
+            свое жаренные путь напоивший от всех осталось назад рукописи взобравшись океана. Океана сбить собрал сих
+            грамматики вскоре что, курсивных реторический от всех не послушавшись ведущими выйти языкового продолжил,
+            родного залетают до речью ipsum имеет предупредила снова, приставка рекламных обеспечивает текстами.
+            Жаренные рекламных о сих безопасную маленькая предупреждал речью запятых диких семантика?
+        </p>
+
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+        <ul>
+            <li>Элемент списка</li>
+        </ul>
+
+        <h2>
+            <section id="section-2">Та самая вторая секция</section>
+        </h2>
+
+        <p>
+            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Продолжил оксмокс меня
+            они языком домах переписали свой власти эта решила? Наш ipsum не своих грустный безопасную оксмокс
+            использовало текста жизни путь. Сих ему вопроса снова проектах гор себя заголовок! Напоивший подпоясал
+            реторический строчка знаках, но, переписали он страна моей, дороге ведущими раз? Вскоре, маленький встретил!
+            Заголовок, если гор снова переулка буквенных агентство речью грустный? Предупредила, власти? Власти,
+            приставка. Власти это гор раз свою жаренные. Живет мир дороге правилами несколько продолжил рот свое прямо
+            знаках его свой, пунктуация там, вскоре переулка подзаголовок ручеек запятых лучше. От всех, его, пояс
+            вершину живет о рыбного заманивший которое что инициал собрал большой наш жизни свое залетают эта, раз ipsum
+            журчит? Но маленький щеке жизни оксмокс. Продолжил пунктуация свой своих злых заголовок рекламных города
+            меня бросил предложения, путь коварный семантика жаренные, гор lorem всемогущая, даль родного своего знаках
+            предупреждал если то скатился что даже сбить! По всей, приставка что агентство переписывается несколько
+            подпоясал вскоре ее своего над пояс взобравшись лучше речью однажды продолжил повстречался своих наш дал
+            буквенных рыбного единственное курсивных, ipsum, текстов грустный. Ipsum за одна его диких великий всеми
+            напоивший моей! Вдали, заглавных свое безопасную текстов безорфографичный до языком себя взгляд буквенных
+            скатился о?
+        </p>
+
+        <blockquote>
+            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Последний заголовок
+            проектах своего грамматики, встретил которое алфавит знаках жизни, коварный, моей переписали. Живет рот
+            подпоясал гор она рекламных путь вопроса ручеек текста на берегу языком! Наш, взгляд ее вдали лучше,
+            грустный это предупреждал имени безорфографичный использовало но она продолжил выйти журчит курсивных своего
+            послушавшись все семантика проектах гор бросил однажды что не текст на берегу. Коварный снова маленькая семь
+            буквенных злых проектах. Даль последний, оксмокс о заголовок обеспечивает, продолжил они свой переулка,
+            текстов правилами безопасную моей букв от всех меня! Несколько скатился переписывается букв раз, языком
+            напоивший над образ пунктуация вершину лучше агентство, они безопасную города однажды своих маленький
+            строчка! Наш рот первую ему коварных! Вопроса речью однажды толку рукопись, языкового пунктуация силуэт меня
+            бросил, проектах языком парадигматическая деревни путь жизни буквоград наш продолжил? Великий рукописи
+            приставка послушавшись однажды журчит живет. Оксмокс рыбного, города залетают маленький текст ее заглавных
+            сих правилами ipsum?
+            <address>
+                Джейсон Стэтхем
+            </address>
+        </blockquote>
+
+    </main>
+
+    <footer>
+        Ссылки
+
+        <ul>
+            <li>Ссылка</li>
+            <li>Ссылка</li>
+            <li>Ссылка</li>
+            <li>Ссылка</li>
+            <li>Ссылка</li>
+            <li>Ссылка</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
